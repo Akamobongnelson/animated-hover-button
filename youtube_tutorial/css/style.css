@@ -1,0 +1,33 @@
+/* FULLSCREEN CENTER LAYOUT WITH DARK BACKGROUND */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+}
+
+/* BASE BUTTON STYLING */
+.magic-btn{
+    padding: 15px 40px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(90deg, #007cf0, #00dfd8);
+    /* BLUE/TEAL GRADIENT */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 223, 216, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+/* HOVER STATE I.E WHEN CURSOR IS ON THE BUTTON */
+.magic-btn:hover{
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00dfd8, #007cf0);
+    /* FLIPPED GRADIENT */
+    box-shadow: 0 8px 25px rgba(0, 223, 216, 0.6);
+    color: #fff;
+}
